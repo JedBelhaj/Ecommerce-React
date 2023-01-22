@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+*{
+    transition: all 0.5s ease-in-out;
+    font-family: 'Amaranth', sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.notactive{
+    animation: notactive 0.5s ease-in-out forwards;
+}
+.active{
+    color: rgb(214, 214, 214);
+    scale: 80%;
+}
+.Active{
+    transform: translateX(100%);
+    animation: active 0.5s ease-in-out forwards;
+}
+@keyframes active {
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes notactive {
+    100%{
+        transform: translateX(100%);
+    }
+}
+.fadein{
+    animation: fadein 0.5s ease-in-out forwards;
+}
+@keyframes fadein {
+    100%{
+        opacity: 0.4;
+    }
+}
+.fadeout{
+    animation: fadeout 0.5s ease-in-out forwards;
+}
+@keyframes fadeout {
+    0%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 0;
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "label": "Product_Name1",
+        "id": 1,
+        "price": "$35",
+        "sales": 4
+    },
+    {
+        "label": "Product_Name2",
+        "id": 2,
+        "price": "$35",
+        "sales": 4
+    },
+    { 
+        "label": "Product_Name3",
+        "id": 3,
+        "price": "$35",
+        "sales": 4
+    },
+    {
+        "label": "Product_Name4",
+        "id": 4,
+        "price": "$35",
+        "sales": 4
+    }
+]
